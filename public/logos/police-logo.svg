@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="50%" stop-color="#1E40AF" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="50%" stop-color="#EAB308" />
+      <stop offset="100%" stop-color="#CA8A04" />
+    </linearGradient>
+  </defs>
+
+  <!-- Police Shield Contour -->
+  <path d="M 200 20 L 330 65 C 330 220, 260 310, 200 350 C 140 310, 70 220, 70 65 Z" fill="url(#shieldGrad)" stroke="url(#goldGrad)" stroke-width="8" />
+  <path d="M 200 32 L 318 73 C 318 212, 254 294, 200 332 C 146 294, 82 212, 82 73 Z" fill="none" stroke="#60A5FA" stroke-width="2" />
+
+  <!-- Lion Capital / Star Badge symbol -->
+  <g transform="translate(200, 155)">
+    <!-- 8-Pointed Star -->
+    <polygon points="0,-60 14,-18 56,-18 22,8 35,50 0,24 -35,50 -22,8 -56,-18 -14,-18" fill="url(#goldGrad)" stroke="#B45309" stroke-width="1.5" />
+    
+    <!-- Central Inner Medallion -->
+    <circle cx="0" cy="0" r="28" fill="#1E3A8A" stroke="url(#goldGrad)" stroke-width="2.5" />
+
+    <!-- Scales of Justice / Civic Protection -->
+    <path d="M 0 -16 L 0 16" stroke="url(#goldGrad)" stroke-width="3" />
+    <path d="M -16 -8 L 16 -8" stroke="url(#goldGrad)" stroke-width="3" />
+    <polygon points="-16,-8 -22,4 -10,4" fill="url(#goldGrad)" />
+    <polygon points="16,-8 10,4 22,4" fill="url(#goldGrad)" />
+    <path d="M -8 16 L 8 16" stroke="url(#goldGrad)" stroke-width="3" />
+  </g>
+
+  <!-- Banner text -->
+  <g transform="translate(200, 275)">
+    <rect x="-105" y="-14" width="210" height="28" rx="6" fill="#F8FAFC" stroke="url(#goldGrad)" stroke-width="2" />
+    <text font-family="'Arial Black', Arial, sans-serif" font-weight="900" font-size="12" fill="#0F172A" text-anchor="middle" y="5" letter-spacing="1">
+      CIVIC POLICE LIAISON
+    </text>
+  </g>
+
+  <!-- Underneath Title -->
+  <text x="200" y="390" font-family="'Arial Black', sans-serif" font-weight="900" font-size="16" fill="#0F172A" text-anchor="middle" letter-spacing="2">
+    LAW &amp; CIVIC ORDER
+  </text>
+</svg>
